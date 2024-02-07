@@ -8,12 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Challenge Encriptador</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
+
     <div class="container">
         <div class="encriptar">
+            <img src="img/Logo.png" alt="" class="logo">
             <textarea name="text" id="text" class="text" cols="30" rows="10"
                 placeholder="Ingresa el texto aqui."></textarea>
 
@@ -23,17 +26,19 @@
             <div class="container-btn">
                 <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
                 <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+
             </div>
 
+
         </div>
-    <div class="encriptado">
-        <img src="img/Muñeco.png" alt="" id="munieco">
-        <div class="msj-encriptado" id="msj-encriptado">
-            <h2 id="tit-mnsj">Ningún mensaje encontrado.</h2>
-            <p id="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
-            <!-- <textarea name="msj-encrip" id="msj-encrip" cols="30" rows="10" class="msj-encrip"></textarea> -->
+        <div class="encriptado">
+            <img src="img/Muñeco.png" alt="" id="munieco">
+            <div class="msj-encriptado" id="msj-encriptado">
+                <h2 id="tit-mnsj">Ningún mensaje encontrado.</h2>
+                <p id="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <!-- <textarea name="msj-encrip" id="msj-encrip" cols="30" rows="10" class="msj-encrip"></textarea> -->
+            </div>
         </div>
-    </div>
     </div>
 </body>
 <script src="index.js"></script>
